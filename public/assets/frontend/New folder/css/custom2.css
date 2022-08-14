@@ -1,0 +1,118 @@
+.our-promise-img-align{
+
+}
+.our-promise-img-align img{
+
+}
+.choose-us-text-align{
+    color: white;
+    font-size: 17px;
+}
+
+
+ /* ----------------> Partners CSS <----------------*/
+ .bgi-cover-center{
+
+ }
+ .bgi-cover-center img{
+    opacity: 2;
+ }
+ .partsner-cover-center{
+    background: linear-gradient(rgba(46, 45, 46, 0.74), rgba(44, 43, 43, 0.836)), url("../images/partners.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .our-partners-align > h1{
+    color: black !important;
+ }
+ .our-partners-align > h2{
+    color: black !important;
+ }
+
+/* ----> Accordian <----*/
+.accordion{
+    color: black !important;
+
+}
+.accordian-tittle-align{
+    color: black !important;
+
+  }
+  .card {
+    border: 2px solid goldenrod;
+  }
+  .card-header{
+
+  }
+
+
+ /* ----------------> Partners CSS <----------------*/
+ .biography-content-align{
+    background-color: rgb(235, 232, 232);
+ }
+ .interview-content-align1{
+
+ }
+  /* ----------------> Professional membership <----------------*/
+.membership-content-align1{
+    padding: 10px;
+}
+
+ /* ----------------> Publications <----------------*/
+.Publications-content-align2{
+    justify-content: center;
+
+
+}
+.Publications-content-align{
+    background-color: rgb(235, 232, 232);
+
+}
+
+
+ /* ----------------> Brief life sketch <----------------*/
+
+ .sketch-content-align{
+    background-color: rgb(235, 232, 232);
+
+ }
+.sketch-button-align{
+ text-align: center;
+}
+
+
+
+ /* ============================= BUSINESS REGISTRATION PAGE ============================*/
+ /* ============================= BUSINESS REGISTRATION PAGE ============================*/
+ /* ============================= BUSINESS REGISTRATION PAGE ============================*/
+
+ /* ----------------> business-card-align <----------------*/
+.business-card-align{
+    background-color: rgb(235, 232, 232);
+}
+
+ /* ----------------> Business law in Bangladesh <----------------*/
+
+ .businesslaw-content-align{
+    background-color: rgb(235, 232, 232);
+
+ }
+
+
+    /* ----------------> Press Interview <----------------*/
+  .interview-align1{
+
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .interview-align1 p{
+    color: black;
+
+
+  }
+  .interview-align2{
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }

@@ -1,0 +1,176 @@
+/* practice area, client, trademark registration page banner */
+/* practice area page
+ */
+.practice-area-banner   
+{background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/testimony-bg2.png');
+/* background-size:cover; */
+height:400px ;
+background-repeat:no-repeat; 
+background-position:center center;
+
+}
+.practice-text-container h2{
+   color: #C89A69;
+   font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 140px;
+}
+.practice-text-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+
+.general-information-container{
+    background-color: #F2F2F2;
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.general-information-text{
+    color: #333333;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    
+    
+}
+
+.heading-border{
+width: 70px;
+border: 1px solid #C89A69;
+
+
+}
+
+.gentle-information-para{
+    color: #000000;
+    text-align: justify;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* our service */
+.service-card{
+    
+    border-width: 4px 0px 4px 0px;
+    color:#000000;
+    border-style: solid;
+    box-shadow: 0px 0px 3px 0px #7d7c76;
+    padding: 15px; 
+    min-height: 410px;
+    border-color:rgb(59, 58, 58);
+   
+}
+
+.service-card:hover{
+    background-color: #eaf0eeb4;
+    border-color: rgba(242, 242, 242, 0.75);
+}
+.card-header{
+    color:#C89A69;
+    text-align: center;
+    margin: 20px 0px  20px 0px;
+    font-size: 20px;
+}
+
+.service-card-text{
+    color: #999999;
+    
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.service-button{
+    background-color: #C89A69;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.service-button:hover{
+    color: #C89A69;
+    background-color: #FFFFFF;
+    border-color: #C89A69;
+}
+
+
+.modal-header-text{
+    background-color: #C89A69;
+    color: #FFFFFF;
+    padding: 5px;
+    margin-top: 0;
+}
+
+.col-md-3{
+    padding-inline-start: 8px;
+    padding-top: 40px;
+}
+
+/* practice area end */
+
+/* clientele page start */
+.clientele-list{
+    /* border-bottom: 2px dotted #C89A69; */
+}
+
+.clientele-list:hover{
+    color: #C89A69 !important;
+    /* font-size: 18px; */
+}
+/* clientele page end */
+
+/* trademark registration start */
+
+
+.trademark{
+    background-color: #F8F8F8;
+}
+.trademark-text{
+    color: #C89A69;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* contact */
+.form-section{
+    width: 300px;
+    
+    
+
+}
+.form-container{
+    background-color: #e0f0e8;
+    color: darkslategray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 700px;
+    /* margin-top: 20px; */
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    border-radius: 10px;
+   
+}
+.btn-form{
+    background-color:#b89b5e !important ;
+    width: 100%;
+    /* color: #b89b5e; */
+}
+.contact{
+    min-width: 300px;
+    margin-right: 40px;
+    align-items: center;
+    background-color:darkslategray;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
