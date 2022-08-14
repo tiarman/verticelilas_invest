@@ -1,0 +1,19 @@
+.about-banner{
+height: 400px;
+margin-top: -100px;
+}
+.about-us-title{
+background-color: rgba(211, 211, 211, 0.5);
+
+}
+.about-us-title >h1{
+    font-weight: 200;
+}
+.color-text{
+    color: #c39a6b;
+    font-weight: 600;
+}
+
+.mission-section{
+    background-color: rgba(211, 211, 211, 0.226);
+}

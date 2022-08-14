@@ -214,6 +214,11 @@ Route::prefix('practice-area')->name('practice.area.')->group(function(){
 Route::get('/',[SiteController::class,'home']
 )->name('home');
 
+//about page
+Route::get('/about', function (){
+return view('site.about');
+})->name('about');
+
 Route::get('/partner-page',[SiteController::class,'partners']
 )->name('partner-page');
 
