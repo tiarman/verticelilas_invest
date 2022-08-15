@@ -214,6 +214,20 @@ Route::prefix('practice-area')->name('practice.area.')->group(function(){
 Route::get('/',[SiteController::class,'home']
 )->name('home');
 
+Route::get('/articles', function () {
+    return view('site.articles');
+})->name('articles');
+
+
+Route::get('/about', function () {
+    return view('site.about');
+})->name('about');
+
+
+
+
+
+
 Route::get('/partner-page',[SiteController::class,'partners']
 )->name('partner-page');
 
@@ -252,9 +266,7 @@ Route::get('/business-registration', function () {
   return view('site.business-registration');
 })->name('business-registration');
 
-Route::get('/articles', function () {
-  return view('site.articles');
-})->name('articles');
+
 
 Route::get('/press', function () {
   return view('site.press');
