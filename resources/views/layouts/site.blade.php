@@ -75,11 +75,13 @@
                     <ul>
                         <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>
                         <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>
+                        <li><a href="{{route('armonia')}}">ARMONIA Project</a></li>
+                        <li><a href="{{route('kitiou')}}">KITIOU RESIDENCES</a></li>
 
                     </ul>
                 </li>
 
-                <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
+                <li><a class="nav-link scrollto" href="{{route('contact')}}">CONTACTS</a></li>
                 <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>

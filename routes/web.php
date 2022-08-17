@@ -228,6 +228,14 @@ Route::get('/giaproject', function () {
     return view('site.giaproject');
 })->name('giaproject');
 
+Route::get('/armonia', function (){
+    return view('site.armonia');
+})->name('armonia');
+
+Route::get('/kitiou', function (){
+    return view('site.kitiou');
+})->name('kitiou');
+
 // current project nox residential arif
 Route::get('/project-nox-residential',function(){
   return view('site.noxResidential');
