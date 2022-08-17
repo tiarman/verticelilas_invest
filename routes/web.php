@@ -275,13 +275,17 @@ Route::get('/our-team', function () {
 })->name('ourTeam');
 
 // contact
-Route::get('contact-us', function () {
+Route::get('/contact-us', function () {
   return view('site.contact');
 })->name('contact');
 
 Route::get('/business-registration', function () {
   return view('site.business-registration');
 })->name('business-registration');
+
+Route::get('/whyus', function () {
+    return view('site.whyus');
+})->name('whyus');
 
 
 

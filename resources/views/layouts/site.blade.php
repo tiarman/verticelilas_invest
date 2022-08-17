@@ -66,7 +66,7 @@
                     <ul>
 
                         <li><a href="{{route('about')}}">About Us</a></li>
-                        <li><a href="{{route('about')}}">Why Us</a></li>
+                        <li><a href="{{route('whyus')}}">Why Us</a></li>
                     </ul>
                 </li>
 
