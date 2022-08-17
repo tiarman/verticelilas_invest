@@ -75,6 +75,7 @@
                     <ul>
                         <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>
                         <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>
+                        <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>
 
                     </ul>
                 </li>
