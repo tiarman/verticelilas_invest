@@ -339,3 +339,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     text-align: justify;
 }
 
+/*************gia_img_align*****************/
+.gia_img_align img{
+    float: left;
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+}
+.gia_img_align {
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+

@@ -224,6 +224,11 @@ Route::get('/about', function () {
 })->name('about');
 
 
+Route::get('/giaproject', function () {
+    return view('site.giaproject');
+})->name('giaproject');
+
+
 
 
 
