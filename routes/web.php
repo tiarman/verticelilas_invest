@@ -240,6 +240,10 @@ Route::get('/kitiou', function (){
 Route::get('/project-nox-residential',function(){
   return view('site.noxResidential');
 })->name('project.nox.residential');
+// current project alexandra arif
+Route::get('/alexandra',function(){
+  return view('site.alexandra');
+})->name('alexandra');
 
 
 
