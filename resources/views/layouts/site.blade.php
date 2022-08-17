@@ -55,9 +55,6 @@
 <header id="header" class="fixed-top " >
     <div class="container d-flex align-items-center">
 
-
-        <h1 class="logo me-auto"><a href="{{route('home')}}">Arsha</a></h1>
-
         <h1 class="logo me-auto"><a href="{{route('home')}}">Verticelilas</a></h1>
 
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -67,20 +64,6 @@
             <ul>
                 <li class="dropdown"><a href="#"><span>ABOUT</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-
-                        <li><a href="#">About Us</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
 
                         <li><a href="{{route('about')}}">About Us</a></li>
                         <li><a href="{{route('about')}}">Why Us</a></li>
