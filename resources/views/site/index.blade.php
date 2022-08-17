@@ -158,8 +158,8 @@
         <div class="container" data-aos="zoom-in">
 
             <div class="row">
-                <div class="col-md-10 text-center text-lg-start">
-                    <iframe width="750" height="405" src="https://www.youtube.com/embed/wy70v-Vzf1k">
+                <div class="col-md-8 text-center text-lg-start">
+                    <iframe width="700" height="405" src="https://www.youtube.com/embed/wy70v-Vzf1k">
                     </iframe>
 
                 </div>
@@ -407,6 +407,8 @@
       </div>
     </div>
   </div>
+
+
 
 @endsection
 

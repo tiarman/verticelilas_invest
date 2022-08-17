@@ -214,14 +214,33 @@ Route::prefix('practice-area')->name('practice.area.')->group(function(){
 Route::get('/',[SiteController::class,'home']
 )->name('home');
 
+Route::get('/articles', function () {
+    return view('site.articles');
+})->name('articles');
+
+
+Route::get('/about', function () {
+    return view('site.about');
+})->name('about');
+
+
+Route::get('/giaproject', function () {
+    return view('site.giaproject');
+})->name('giaproject');
+
+// current project nox residential arif
+Route::get('/project-nox-residential',function(){
+  return view('site.noxResidential');
+})->name('project.nox.residential');
+
+
+
+
 
 Route::get('/partner-page',[SiteController::class,'partners']
 )->name('partner-page');
 
-// current project nox residential
-Route::get('/project-nox-residential',function(){
-  return view('site.noxResidential');
-})->name('project.nox.residential');
+
 
 Route::get('/partners', function () {
   return view('site.partners');
@@ -256,9 +275,7 @@ Route::get('/business-registration', function () {
   return view('site.business-registration');
 })->name('business-registration');
 
-Route::get('/articles', function () {
-  return view('site.articles');
-})->name('articles');
+
 
 Route::get('/press', function () {
   return view('site.press');

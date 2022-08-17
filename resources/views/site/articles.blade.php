@@ -5,98 +5,139 @@
 
 @section('content')
     <!-- Head -->
-
-    <div class="section partsner-cover-center">
-        <div class="content-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <h2 class="section-heading text-center text-white">
-                            Articles
-                        </h2>
-                    </div>
-                </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{asset('assets/newfrontend/img/Articles.png')}}" class="d-block w-100" alt="...">
             </div>
+
         </div>
     </div>
 
-    <div class="section Company-content-align">
-        <div class="content-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <p class="section-heading text-center text-Black">
-                            Articles and Discussion on Bangladesh legal issues by S Hossain & Associates
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="our_services_align1">
+        <h1 class="container">Our Services</h1>
     </div>
 
-    <div class="container">
+    <section class="container">
         <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">স্পাউসের ইমিগ্রিশনের কিছু কমন সমস্যা</h5>
-                  <p class="card-text">আমরা এস হোসেন এন্ড এসোসিয়েটস ল অফিসে ইউএসএ , ইউকে সহ অনেক দেশের স্পাউস ইমিগ্রেশন প্রসেসে বেশ কিছু কমন সমস্যা দেখতে পারি। স্পাউস ইমিগ্রেশনের ক্ষেত্রে</p>
-                  <a href="#" class="btn btn-primary">READ MORE >></a>
-                </div>
-              </div>
+            <div class="col-md-4 our_services_align2">
+                <h1>SERVICE AT EVERY</h1>
+                <h2>TOUCH-POINT</h2>
+
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">জমির নামজারী কিভাবে করবেন ?</h5>
-                  <p class="card-text">বাংলাদেশে কোনো জমি বা ফ্ল্যাটের মালিকানা নিশ্চিতের জন্য অত্যন্ত প্রয়োজনীয় পদক্ষেপ হচ্ছে নামজারী বা মিউটেশন ? সাধারণত কেউ ক্রয় সূত্রে বা উত্তরাধিকার সূত্রে কোন জমির</p>
-                  <a href="#" class="btn btn-primary">READ MORE >></a>
-                </div>
-              </div>
+            <div class="col-md-8 our_services_align3">
+                <p>The most important thing to us is the service we provide to our clients. And we are pleased to offer every single client the highest level of service that they would expect and deserve.</p>
+
             </div>
-            <div class="col-sm-6 mt-5">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">USA ফ্যামিলি ইমিগ্রেশনের কিছু গুরুত্বপূর্ণ বিষয়</h5>
-                    <p class="card-text">বর্তমানে USA  তে যাদের এফ ৪ ক্যাটাগরিতে ইমিগ্রান্ট ভিসা  এপ্লিকেশন পেনডিং রয়েছে তারা অনেকেই বার্থ সার্টিফিকেটে বিলম্বের রেজিস্ট্রেশনের জন্য RFE এর চিঠি পাচ্ছেন।  দীর্ঘদিন ভিসার</p>
-                    <a href="#" class="btn btn-primary">READ MORE >></a>
-                  </div>
+        </div>
+    </section>
+
+
+    <section style="background: #fafafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 our_services_align2">
+                    <h1>REAL ESTATE</h1>
+                    <h2>SERVICES</h2>
+
                 </div>
-              </div>
-              <div class="col-sm-6 mt-5">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">ROLE OF ARBITRATION COUNCIL IN DIVORCE PROCEEDINGS IN BANGLADESH</h5>
-                    <p class="card-text">Under the Muslim Family Law Ordinance 1961 when a muslim in Bangladesh wishes to divorce he or she shall have to serve a notice of</p>
-                    <a href="#" class="btn btn-primary">READ MORE >></a>
-                  </div>
+                <div class="col-md-8 our_services_align3">
+                    <p>As a company born in Cyprus, with roots deep in the soil of our country, we know about Cyprus real estate. We offer ‘best-in-class’: well-planned, well-built, and with unencumbered title deeds as soon as formalities have been complete. These are our assurances and commitments.</p>
+                    <p style="color: black">Each one of our properties has been designed and planned by us. We know all there is to know about it. From initial concept through to finishing touches and completion, we project-manage the entire process. That’s why we can offer our clients value-for-money properties that we know will delight on a personal level and represent significant investment potential at the financial level.</p>
+
                 </div>
-              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4 our_services_align2">
+                <h1>DEVELOPMENT</h1>
+                <h2>SERVICES</h2>
+
+            </div>
+            <div class="col-md-8 our_services_align3">
+                <p>Sunshadow’s development criteria are to create attractive, contemporary projects in locations where people want to be; aiming not only to meet the requirements of the property buyer, but to redefine and surpass them. We do this by creating properties based on their unique combination of position, proximity to local amenities, ‘liveability’ and lifestyle potential and forecasted rental return and capital gain. We plan, design and construct our projects to exacting European standards with the needs of both the astute investor and discerning owner in mind.</p>
+                <p style="color: black">We are committed to delivering outstanding lifestyle and investment opportunities through a balanced approach that blends personal requirements, community needs, local character, and return on investment. A building may be stone, steel or glass, but we know that it is people who create a liveable and thriving environment. So our innovative apartment and housing developments are planned to harmonise with the local community and surroundings.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #fafafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 our_services_align2">
+                    <h1>BEFORE-CARE</h1>
+                    <h2>SERVICES</h2>
+
+                </div>
+                <div class="col-md-8 our_services_align3">
+                    <p>First and foremost, you will be treated with respect as an individual. You can expect to receive a customised service that reflects your specific needs and expectations, because we understand that no two clients have the same criteria. One person may be looking to invest in high income property with tax benefits; another may want to take advantage of the Cyprus Government scheme for residence by property acquisition; yet another may be seeking a holiday or retirement home.</p>
+                    <p style="color: black">At Sunshadow, we will take whatever time is necessary to understand fully your own goals and objectives. Then we’ll work with you on developing a personalised winning strategy from the outset by helping you gain an in-depth understanding of the fundamentals; putting you in a much stronger position to make an informed choice.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4 our_services_align2">
+                <h1>AFTER-CARE</h1>
+                <h2>SERVICES</h2>
+
+            </div>
+            <div class="col-md-8 our_services_align3">
+                <p>Once you have successfully made your purchase, you can be confident that Sunshadow will provide you with continuing high levels of service.</p>
+                <p style="color: black">Our Aftercare Team will work with you through the technicalities and requirements and be on hand to provide you with any help and advice that you may need.</p>
+                <br/>
+                <div>
+                    <h6 style="color: black">We will guide you on such matters as:</h6>
+                    <ul>
+                        <li>Construction status.</li>
+                        <li>Stage payment reminders.</li>
+                        <li>Support with financial and legal matters such as setting up bank accounts and dealing with lawyers.</li>
+                        <li>Obtaining quotes on your behalf for the installation of additional items such as swimming pools, furniture and security systems.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
 
 
-          </div>
+
+
+
+
+
+
+
           <br/>
-          <br/>
-          <br/>
-          <br/>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
-    </div>
+{{--          <br/>--}}
+{{--          <br/>--}}
+{{--          <br/>--}}
+{{--          <nav aria-label="Page navigation example">--}}
+{{--            <ul class="pagination justify-content-center">--}}
+{{--              <li class="page-item disabled">--}}
+{{--                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>--}}
+{{--              </li>--}}
+{{--              <li class="page-item"><a class="page-link" href="#">1</a></li>--}}
+{{--              <li class="page-item"><a class="page-link" href="#">2</a></li>--}}
+{{--              <li class="page-item"><a class="page-link" href="#">3</a></li>--}}
+{{--              <li class="page-item">--}}
+{{--                <a class="page-link" href="#">Next</a>--}}
+{{--              </li>--}}
+{{--            </ul>--}}
+{{--          </nav>--}}
+
 
 
 
