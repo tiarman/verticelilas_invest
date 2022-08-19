@@ -26,17 +26,29 @@
 
  }
 /*-------real_state_investman_align---------*/
-.real_state_investman_align{
-    vertical-align: center;
-    horiz-align: center;
-    margin-top: 90px;
+
+.real_state_investman_align> h1{
+    font-size: 20px;
+    text-align: justify;
 
 }
-.real_state_investman_align img{
-    width: 40px;
-
+.real_state_investman_align> p{
+    font-size: 14px;
+    text-align: justify !important;
 
 }
+/*.real_state_investman_align{*/
+/*    vertical-align: center;*/
+/*    horiz-align: center;*/
+/*    margin-top: 90px;*/
+
+/*}*/
+/*.real_state_investman_align img{*/
+/*    width: 40px;*/
+
+
+/*}*/
+
 /*-------knowledge_base_align---------*/
 .knowledge_base_align > h1{
     font-size: 21px;

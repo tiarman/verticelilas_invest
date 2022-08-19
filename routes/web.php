@@ -219,6 +219,27 @@ Route::get('/articles', function () {
 })->name('articles');
 
 
+
+Route::get('/lacreasta', function () {
+    return view('site.lacreasta');
+})->name('lacreasta');
+
+
+Route::get('/investors', function () {
+    return view('site.passiveinvestman');
+})->name('investors');
+
+Route::get('/articlesdetails', function () {
+    return view('site.articlesdetails');
+})->name('articlesdetails');
+
+
+Route::get('/services', function () {
+    return view('site.services');
+})->name('services');
+
+
+
 Route::get('/about', function () {
     return view('site.about');
 })->name('about');

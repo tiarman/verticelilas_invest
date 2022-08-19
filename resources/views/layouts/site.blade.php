@@ -24,6 +24,7 @@
     <link href="{{asset('assets/newfrontend/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/newfrontend/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
     <link href="{{asset('assets/newfrontend/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/contacts/css/fontawesome.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link rel="stylesheet" href="{{asset('assets/newfrontend/css/style.css')}}">
@@ -46,7 +47,7 @@
 
 <!-- LOAD PAGE -->
 <div class="animationload">
-  <div class="loader"></div>
+    <div class="loader"></div>
 </div>
 
 
@@ -69,23 +70,33 @@
                         <li><a href="{{route('whyus')}}">Why Us</a></li>
                     </ul>
                 </li>
-
-                <li><a class="nav-link scrollto" href="{{route('articles')}}">SERVICES</a></li>
+                <li><a class="nav-link scrollto" href="{{route('investors')}}">PASSIVE INVESTMAN</a></li>
+                <li><a class="nav-link scrollto" href="{{route('services')}}">SERVICES</a></li>
                 <li class="dropdown"><a href="#"><span>PROJECTS</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
+                        <li><a href="{{route('lacreasta')}}">LA CRESTA DEL MAR</a></li>
                         <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>
                         <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>
 
                         <li><a href="{{route('armonia')}}">ARMONIA Project</a></li>
-                        <li><a href="{{route('kitiou')}}">KITIOU RESIDENCES</a></li>
+
 
                         <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>
+                        <li><a href="{{route('kitiou')}}">KITIOU RESIDENCES</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="{{route('articles')}}"><span>ARTICLES</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{route('articles')}}">View All Articles</a></li>
+                        <li><a href="{{route('project.nox.residential')}}">Cyprus Investment 2022</a></li>
 
                     </ul>
                 </li>
 
+
                 <li><a class="nav-link scrollto" href="{{route('contact')}}">CONTACTS</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                {{--                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>--}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -141,7 +152,7 @@
                     <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft; color: white">
                         <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
                         <div class="f_social_icon">
-                            <a href="#" class="fab fa-facebook"></a>
+                            <a href="#" class="fa-facebook-square"></a>
                             <a href="#" class="fab fa-twitter"></a>
                             <a href="#" class="fab fa-linkedin"></a>
                             <a href="#" class="fab fa-pinterest"></a>
@@ -159,10 +170,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-7">
-                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>
+                    {{--                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>--}}
                 </div>
                 <div class="col-lg-6 col-sm-5 text-right">
-                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>
+                    {{--                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>--}}
                 </div>
             </div>
         </div>

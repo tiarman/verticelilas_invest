@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpIncludePathManager">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf9e4b3d-70b9-4b30-b8a1-213e133e9a2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/contacts/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/articles1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/house-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/kitiou/3D1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/kitiou/3D4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/kitiou/3d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/kitiou/3d3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/lacre/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/painting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/passive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/newfrontend/img/realmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/articlesdetails.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/lacreasta.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/passiveinvestman.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/verticelilasinvest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/frontend/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/frontend/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/contactlayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/contactlayout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/articles.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/articles.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/kitiou.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/kitiou.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-ignition" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
@@ -124,10 +183,47 @@
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
-    </phpunit_settings>
+  <component name="ProjectId" id="2DYnU1czW55SiK5GuHt0vRnHNKs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf9e4b3d-70b9-4b30-b8a1-213e133e9a2b" name="Changes" comment="" />
+      <created>1660884912260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660884912260</updated>
+      <workItem from="1660884923313" duration="679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

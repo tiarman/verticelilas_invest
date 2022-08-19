@@ -12,17 +12,21 @@
     <link rel="stylesheet" href="{{asset('assets/contacts/css/style.css')}}">
 
 </head>
+
 <body>
+@yield('contcts')
 <section class="ftco-section">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 text-center mb-5">
-                <h2 class="heading-section">Contact Form #08</h2>
-            </div>
+        <div style="text-align: center" class="row justify-content-center">
+            <h1 style="text-align: center">Contact Info</h1>
+            <h6>Phone: 34-646441927</h6>
+            <h6>Address: Calle Gutenberg 5 4BIS 29016 Malaga Spain</h6>
+            <h6>info@verticelilasinvest.com</h6>
+
         </div>
-        <div class="row justify-content-center">
+        <div style="margin-top: 50px" class="row justify-content-center">
             <div class="col-lg-10">
-                <div class="wrapper img" style="background-image: url(images/img.jpg);">
+                <div class="wrapper img" style="background-image: url({{asset('assets/contacts/images/img.jpg')}});">
                     <div class="row">
                         <div class="col-md-9 col-lg-7">
                             <div class="contact-wrap w-100 p-md-5 p-4">
