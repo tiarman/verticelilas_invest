@@ -5,98 +5,108 @@
 
 @section('content')
     <!-- Head -->
+    <div class="card bg-dark text-white">
+        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">
+        <div class="card-img-overlay">
+{{--            <h5 class="card-title">Card title</h5>--}}
+{{--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>--}}
+{{--            <p class="card-text">Last updated 3 mins ago</p>--}}
+        </div>
+    </div>
 
-    <div class="section partsner-cover-center">
-        <div class="content-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <h2 class="section-heading text-center text-white">
-                            Articles
-                        </h2>
+    <section>
+        <div class="container">
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+{{--                        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">--}}
+                        <div class="col-sm-6 col-md-12"><img width="100%" src="{{asset('assets/newfrontend/img/noxResidential/img1.jpg')}}" alt=""></div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Buy Properties in Larnaca: How-To Guide in 2022</h5>
+                            <p class="card-text"><small class="text-muted">August 16, 2022</small></p>
+                            <br/>
+                            <br/>
+                            <p class="card-text">Larnaca is one of the prime locations in Cyprus to buy properties. The time is now since the real estate market in Larnaca is proliferating.</p>
+                            <br/>
+                            <div>
+                                <button class="btn btn-primary">Read More</button>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="section Company-content-align">
-        <div class="content-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <p class="section-heading text-center text-Black">
-                            Articles and Discussion on Bangladesh legal issues by S Hossain & Associates
-                        </p>
 
+    <section>
+        <div class="container">
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        {{--                        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">--}}
+                        <div class="col-sm-6 col-md-12"><img width="100%" src="{{asset('assets/newfrontend/img/noxResidential/img1.jpg')}}" alt=""></div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">2 Luxury Properties in Larnaca: GAIA & NOX</h5>
+                            <p class="card-text"><small class="text-muted">August 16, 2022</small></p>
+                            <br/>
+                            <br/>
+                            <p class="card-text">When it comes to luxury properties in Larnaca, there are always four factors that you need to keep in mind when making a choice. The</p>
+                            <br/>
+                            <div>
+                                <a type="button" href="{{route('articlesdetails')}}" class="btn btn-primary">Read More</a>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">স্পাউসের ইমিগ্রিশনের কিছু কমন সমস্যা</h5>
-                  <p class="card-text">আমরা এস হোসেন এন্ড এসোসিয়েটস ল অফিসে ইউএসএ , ইউকে সহ অনেক দেশের স্পাউস ইমিগ্রেশন প্রসেসে বেশ কিছু কমন সমস্যা দেখতে পারি। স্পাউস ইমিগ্রেশনের ক্ষেত্রে</p>
-                  <a href="#" class="btn btn-primary">READ MORE >></a>
+
+    <section>
+        <div class="container">
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        {{--                        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">--}}
+                        <div class="col-sm-6 col-md-12"><img width="100%" src="{{asset('assets/newfrontend/img/noxResidential/img2.jpg')}}" alt=""></div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">15 Important Reasons Why to Invest in Larnaca Now in 2022</h5>
+                            <p class="card-text"><small class="text-muted">August 16, 2022</small></p>
+                            <br/>
+                            <br/>
+                            <p class="card-text">Larnaca is one of the prime locations in Cyprus to buy properties. The time is now since the real estate market in Larnaca is proliferating.</p>
+                            <br/>
+                            <div>
+                                <button class="btn btn-primary">Read More</button>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">জমির নামজারী কিভাবে করবেন ?</h5>
-                  <p class="card-text">বাংলাদেশে কোনো জমি বা ফ্ল্যাটের মালিকানা নিশ্চিতের জন্য অত্যন্ত প্রয়োজনীয় পদক্ষেপ হচ্ছে নামজারী বা মিউটেশন ? সাধারণত কেউ ক্রয় সূত্রে বা উত্তরাধিকার সূত্রে কোন জমির</p>
-                  <a href="#" class="btn btn-primary">READ MORE >></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 mt-5">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">USA ফ্যামিলি ইমিগ্রেশনের কিছু গুরুত্বপূর্ণ বিষয়</h5>
-                    <p class="card-text">বর্তমানে USA  তে যাদের এফ ৪ ক্যাটাগরিতে ইমিগ্রান্ট ভিসা  এপ্লিকেশন পেনডিং রয়েছে তারা অনেকেই বার্থ সার্টিফিকেটে বিলম্বের রেজিস্ট্রেশনের জন্য RFE এর চিঠি পাচ্ছেন।  দীর্ঘদিন ভিসার</p>
-                    <a href="#" class="btn btn-primary">READ MORE >></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 mt-5">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">ROLE OF ARBITRATION COUNCIL IN DIVORCE PROCEEDINGS IN BANGLADESH</h5>
-                    <p class="card-text">Under the Muslim Family Law Ordinance 1961 when a muslim in Bangladesh wishes to divorce he or she shall have to serve a notice of</p>
-                    <a href="#" class="btn btn-primary">READ MORE >></a>
-                  </div>
-                </div>
-              </div>
+        </div>
+    </section>
 
 
 
 
 
-          </div>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-              <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-              </li>
-            </ul>
-          </nav>
-    </div>
+
+
+
+
+
+
 
 
 

@@ -1,60 +1,28 @@
-@extends('layouts.site');
+@extends('layouts.site')
 
 @section('stylesheet')
-<link rel="stylesheet" href="{{asset('assets/frontend/css/custom.css')}}">
 @endsection
 
 @section('content')
 {{-- banner --}}
-<div class="practice-area-banner">
-    <div class="practice-text-container">
-        <h2>Contact with us</h2>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d375.9506615044021!2d33.628333!3d34.913243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe8536648809e157d!2sSunshadow%20Investments%20LTD!5e1!3m2!1sen!2sus!4v1660757773408!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     </div>
 </div>
-<div class="container">
-  
-<div class="form-container  row  mx-auto">
-        
-  <div class="contact col-md-3 col-sm-12 ">
-    
-      <div class="">
-        <h2 class="text-center">Contact us</h2>
-      <p>Every case is very important to us and we always take care of them seriously.</p>
-                
-    <p><i class="fa-solid fa-address-card px-3"></i>Address: Dhaka, Bangladesh</p>
 
-    <p><i class="fa-solid fa-phone px-3"></i> Phone: + 1235 2355 98</p>
+<div class="our_services_align1">
+    <h1 class="container">CONTACT US</h1>
+</div>
 
-    <p><i class="fa-solid fa-envelope px-3"></i>Email: info@yoursite.com</p>
-    <p><i class="fa-solid fa-earth-asia px-3"></i>Web: info@yoursite.com</p>
-      </div>
-      
-  </div>
-  <div class="form-section my-auto -3 col-md-6 col-sm-12">
-      <form>
-        <h2 class="text-center">Get in Touch</h2>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Name</label>
-            <input type="text" class="form-control" placeholder="Enter Your ID" id="" aria-describedby="emailHelp">
-            
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Email</label>
-            <input type="email" placeholder="Enter Your Email" class="form-control" id="">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Phone</label>
-            <input type="text" placeholder="Enter Your Phone" class="form-control" id="">
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Message</label>
-            <textarea name="message" id="" cols="30" rows="3"></textarea>
-          </div>
-          
-          <button type="submit" class="btn btn-form">Submit</button>
-        </form>
-  </div>
- 
-</div>
-</div>
+
+@include('layouts.contactlayout')
+
+
+
+@endsection
+@section('script')
 @endsection

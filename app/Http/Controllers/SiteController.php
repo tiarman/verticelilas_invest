@@ -28,6 +28,7 @@ class SiteController extends Controller
 
     }
 
+
     public function partners(){
         $data['partners'] = Partners::where('status','=','active')->get();
         $data['member_ships'] = ProfessionalMembership::where('status','=','active')->get();

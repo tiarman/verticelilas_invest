@@ -214,6 +214,60 @@ Route::prefix('practice-area')->name('practice.area.')->group(function(){
 Route::get('/',[SiteController::class,'home']
 )->name('home');
 
+Route::get('/articles', function () {
+    return view('site.articles');
+})->name('articles');
+
+
+Route::get('/lacreasta', function () {
+    return view('site.lacreasta');
+})->name('lacreasta');
+
+
+Route::get('/investors', function () {
+    return view('site.passiveinvestman');
+})->name('investors');
+
+Route::get('/articlesdetails', function () {
+    return view('site.articlesdetails');
+})->name('articlesdetails');
+
+
+Route::get('/services', function () {
+    return view('site.services');
+})->name('services');
+
+
+Route::get('/about', function () {
+    return view('site.about');
+})->name('about');
+
+
+Route::get('/giaproject', function () {
+    return view('site.giaproject');
+})->name('giaproject');
+
+Route::get('/armonia', function (){
+    return view('site.armonia');
+})->name('armonia');
+
+Route::get('/kitiou', function (){
+    return view('site.kitiou');
+})->name('kitiou');
+
+// current project nox residential arif
+Route::get('/project-nox-residential',function(){
+  return view('site.noxResidential');
+})->name('project.nox.residential');
+// current project alexandra arif
+Route::get('/alexandra',function(){
+  return view('site.alexandra');
+})->name('alexandra');
+
+
+
+
+
 Route::get('/partner-page',[SiteController::class,'partners']
 )->name('partner-page');
 
@@ -244,7 +298,7 @@ Route::get('/our-team', function () {
 })->name('ourTeam');
 
 // contact
-Route::get('contact-us', function () {
+Route::get('/contact-us', function () {
   return view('site.contact');
 })->name('contact');
 
@@ -252,9 +306,11 @@ Route::get('/business-registration', function () {
   return view('site.business-registration');
 })->name('business-registration');
 
-Route::get('/articles', function () {
-  return view('site.articles');
-})->name('articles');
+Route::get('/whyus', function () {
+    return view('site.whyus');
+})->name('whyus');
+
+
 
 Route::get('/press', function () {
   return view('site.press');

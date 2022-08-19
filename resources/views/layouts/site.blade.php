@@ -24,6 +24,7 @@
     <link href="{{asset('assets/newfrontend/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/newfrontend/vendor/remixicon/remixicon.css')}}" rel="stylesheet">
     <link href="{{asset('assets/newfrontend/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/contacts/css/fontawesome.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link rel="stylesheet" href="{{asset('assets/newfrontend/css/style.css')}}">
@@ -52,10 +53,11 @@
 
 
 <!-- HEADER -->
-<header id="header" class="fixed-top ">
+<header id="header" class="fixed-top " >
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
+        <h1 class="logo me-auto"><a href="{{route('home')}}">Verticelilas</a></h1>
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -63,30 +65,38 @@
             <ul>
                 <li class="dropdown"><a href="#"><span>ABOUT</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
+
+                        <li><a href="{{route('about')}}">About Us</a></li>
+                        <li><a href="{{route('whyus')}}">Why Us</a></li>
                     </ul>
                 </li>
-{{--                <li><a class="nav-link scrollto active" href="#hero">ABOUT</a></li>--}}
-{{--                <li><a class="nav-link scrollto" href="#about">About</a></li>--}}
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link   scrollto" href="#portfolio">PROJECTS</a></li>
-                <li><a class="nav-link scrollto" href="#team">ARTICLES</a></li>
-{{--                <li><a class="nav-link scrollto" href="#team">CONTACTS</a></li>--}}
+                <li><a class="nav-link scrollto" href="{{route('investors')}}">PASSIVE INVESTMAN</a></li>
+                <li><a class="nav-link scrollto" href="{{route('services')}}">SERVICES</a></li>
+                <li class="dropdown"><a href="#"><span>PROJECTS</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{route('lacreasta')}}">LA CRESTA DEL MAR</a></li>
+                        <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>
+                        <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>
 
-                <li><a class="nav-link scrollto" href="#contact">CONTACTS</a></li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+                        <li><a href="{{route('armonia')}}">ARMONIA Project</a></li>
+
+
+                        <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>
+                        <li><a href="{{route('kitiou')}}">KITIOU RESIDENCES</a></li>
+
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="{{route('articles')}}"><span>ARTICLES</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="{{route('articles')}}">View All Articles</a></li>
+                        <li><a href="{{route('project.nox.residential')}}">Cyprus Investment 2022</a></li>
+
+                    </ul>
+                </li>
+
+
+                <li><a class="nav-link scrollto" href="{{route('contact')}}">CONTACTS</a></li>
+{{--                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>--}}
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -96,6 +106,79 @@
 
 @yield('content')
 <!-- FOOTER SECTION -->
+<footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft; color: white">
+                        <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                        <p>Don’t miss any updates of our new templates and extensions.!</p>
+                        <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                            <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                            <p class="mchimp-errmessage" style="display: none;"></p>
+                            <p class="mchimp-sucmessage" style="display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft; color: white">
+                        <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Android App</a></li>
+                            <li><a href="#">ios App</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">My tasks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft; color: white">
+                        <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Term &amp; conditions</a></li>
+                            <li><a href="#">Reporting</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft; color: white">
+                        <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                        <div class="f_social_icon">
+                            <a href="#" class="fa-facebook-square"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+                            <a href="#" class="fab fa-pinterest"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-7">
+{{--                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>--}}
+                </div>
+                <div class="col-lg-6 col-sm-5 text-right">
+{{--                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>--}}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- Contact-->
 
 

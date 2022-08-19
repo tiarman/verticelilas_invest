@@ -1,0 +1,25 @@
+
+.color-text{
+    color: #c39a6b;
+    font-weight: 600;
+}
+
+/* start nox residential */
+.nox-redential-text-color{
+    color: #c39a6b;
+    font-weight: 600;
+}
+.nox-residential-banner{
+    background-color: rgba(26, 35, 43, 0.548);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nox-redential-header{
+    padding: 30px;
+    background-color: #f2f0ef;
+}
+
+/* end nox residential */
