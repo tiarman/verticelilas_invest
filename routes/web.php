@@ -279,6 +279,10 @@ Route::get('/partners', function () {
   return view('site.partners');
 })->name('partners');
 
+Route::get('/cyprus', function () {
+    return view('site.cyprus');
+})->name('cyprus');
+
 
 Route::get('/practice-area', function (){
   return view('site.practiceArea');

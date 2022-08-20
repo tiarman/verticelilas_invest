@@ -158,48 +158,7 @@
 
         </div>
     </section>
-    {{--    <section class="container">--}}
-    {{--        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-4 image-section-align">--}}
-    {{--            <div class="col">--}}
-    {{--                <div class="card h-100">--}}
-    {{--                    <a href="{{route('giaproject')}}"><img src="{{asset(('assets/newfrontend/img/img1.jpg'))}}" class="card-img-top" alt="..."></a>--}}
-    {{--                    <div>--}}
-    {{--                        <h1>LA CRESTA</h1>--}}
-    {{--                        <p>SEVEN NEW INDIVIDUAL VILLAS WITH PRIVATE POOLS</p>--}}
-    {{--                    </div>--}}
 
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--            <div class="col">--}}
-    {{--                <div class="card h-100">--}}
-    {{--                    <img src="{{asset(('assets/newfrontend/img/img1.jpg'))}}" class="card-img-top" alt="...">--}}
-    {{--                    <div>--}}
-    {{--                        <h1>NOX Residences</h1>--}}
-    {{--                        <p>2-3 Bedroom Apartments</p>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--            <div class="col">--}}
-    {{--                <div class="card h-100">--}}
-    {{--                    <img src="{{asset(('assets/newfrontend/img/img1.jpg'))}}" class="card-img-top" alt="...">--}}
-    {{--                    <div>--}}
-    {{--                        <h1>ARMONIA Project</h1>--}}
-    {{--                        <p>Sold Out</p>--}}
-    {{--                    </div>--}}
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--            <div class="col">--}}
-    {{--                <div class="card h-100">--}}
-    {{--                    <img src="{{asset(('assets/newfrontend/img/img1.jpg'))}}" class="card-img-top" alt="...">--}}
-    {{--                    <div>--}}
-    {{--                        <h1>KITIOU Residences</h1>--}}
-    {{--                        <p>Sold Out</p>--}}
-    {{--                    </div>--}}
-
-    {{--                </div>--}}
-    {{--            </div>--}}
-    {{--        </div>--}}
-    {{--    </section>--}}
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -275,72 +234,6 @@
             </div>
         </div>
     </section>
-    {{-- <section class="container">--}}
-    {{--     <h1 class="text-center">REAL ESTATE INVESTMENT <br/> IN LARNACA, CYPRUS</h1>--}}
-    {{--     <div class="row">--}}
-    {{--         <div class="col-md-6">--}}
-    {{--             <div class="card mb-3" style="max-width: 540px;">--}}
-    {{--                 <div class="row g-0">--}}
-    {{--                     <div class="col-md-2 real_state_investman_align">--}}
-    {{--                         <img src="{{asset('assets/newfrontend/img/apartment.png')}}" class="img-fluid rounded-start" alt="...">--}}
-    {{--                     </div>--}}
-    {{--                     <div class="col-md-10">--}}
-    {{--                         <div class="card-body">--}}
-    {{--                             <h5 class="card-title">Years of Experience in Property Development</h5>--}}
-    {{--                             <p class="card-text">With years of experience in property development investment, marketing, renovating, property management and residential sales, we are a company that is committed to each client’s best interests.</p>--}}
-    {{--                         </div>--}}
-    {{--                     </div>--}}
-    {{--                 </div>--}}
-    {{--             </div>--}}
-    {{--         </div>--}}
-    {{--         <div class="col-md-6">--}}
-    {{--             <div class="card mb-3" style="max-width: 540px;">--}}
-    {{--                 <div class="row g-0">--}}
-    {{--                     <div class="col-md-2">--}}
-    {{--                         <img src="..." class="img-fluid rounded-start" alt="...">--}}
-    {{--                     </div>--}}
-    {{--                     <div class="col-md-10">--}}
-    {{--                         <div class="card-body">--}}
-    {{--                             <h5 class="card-title">Strategic Locations for Investment and Lifestyle</h5>--}}
-    {{--                             <p class="card-text">When choosing locations to build, we carefully select areas with highest potential in market growth, close proximity to the essential amenities, and with the most pleasant view and atmosphere.</p>--}}
-
-    {{--                         </div>--}}
-    {{--                     </div>--}}
-    {{--                 </div>--}}
-    {{--             </div>--}}
-    {{--         </div>--}}
-    {{--         <div class="col-md-6">--}}
-    {{--             <div class="card mb-3" style="max-width: 540px;">--}}
-    {{--                 <div class="row g-0">--}}
-    {{--                     <div class="col-md-2">--}}
-    {{--                         <img src="..." class="img-fluid rounded-start" alt="...">--}}
-    {{--                     </div>--}}
-    {{--                     <div class="col-md-10">--}}
-    {{--                         <div class="card-body">--}}
-    {{--                             <h5 class="card-title">Truly Liveable and Enjoyable Residences</h5>--}}
-    {{--                             <p class="card-text">The 2 and 3 bedroom apartments have been carefully designed to maximise the available space. They are both inspired and sensible. They offer open, spacious living areas with full height and full width thermal glazed windows, expansive balconies, extensive storage in the bedrooms and kitchen and quality floor ceramics in all areas.</p>--}}
-    {{--                         </div>--}}
-    {{--                     </div>--}}
-    {{--                 </div>--}}
-    {{--             </div>--}}
-    {{--         </div>--}}
-    {{--         <div class="col-md-6">--}}
-    {{--             <div class="card mb-3" style="max-width: 540px;">--}}
-    {{--                 <div class="row g-0">--}}
-    {{--                     <div class="col-md-2">--}}
-    {{--                         <img src="..." class="img-fluid rounded-start" alt="...">--}}
-    {{--                     </div>--}}
-    {{--                     <div class="col-md-10">--}}
-    {{--                         <div class="card-body">--}}
-    {{--                             <h5 class="card-title">Aesthetic Designs Infused with Build Quality</h5>--}}
-    {{--                             <p class="card-text">Attractive developments which are both economically viable and aesthetically pleasing. Developments which are consistently innovative and environmentally responsible in their design, construction and sustainability. Management and construction in line with European industry standards and quality assurance principles.</p>--}}
-    {{--                         </div>--}}
-    {{--                     </div>--}}
-    {{--                 </div>--}}
-    {{--             </div>--}}
-    {{--         </div>--}}
-    {{--     </div>--}}
-    {{-- </section>--}}
 
     <!-- KNOWLEDGE BASE -->
     <section class="container">

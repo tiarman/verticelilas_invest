@@ -380,5 +380,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     text-align: center;
 
 }
+/*cyprus_content_align1*/
+.cyprus_content_align1{
+    background-color: #c49a6c;
+}
+.cyprus_content_align2{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.cyprus_content_align2 h1{
+    color: white;
+    font-weight: 500;
+}
 
 

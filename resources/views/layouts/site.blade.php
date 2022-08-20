@@ -90,7 +90,7 @@
                 <li class="dropdown"><a href="{{route('articles')}}"><span>ARTICLES</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{route('articles')}}">View All Articles</a></li>
-                        <li><a href="{{route('project.nox.residential')}}">Cyprus Investment 2022</a></li>
+                        <li><a href="{{route('cyprus')}}">Cyprus Investment 2022</a></li>
 
                     </ul>
                 </li>
