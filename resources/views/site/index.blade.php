@@ -19,23 +19,32 @@
             <div class="carousel-item active" data-bs-interval="10000">
                 <img height="650px" src="{{asset('assets/newfrontend/img/lacre/15.jpg')}}" class="d-block w-100" alt="...">
                 {{--                <img src="{{asset('assets/frontend/images/home03.png')}}" class="d-block w-100" alt="...">--}}
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>LA CRESTA DEL MAR</h1>
+                <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-delay="200">
+                    <h1 style="color: white">LA CRESTA DEL MAR</h1>
                     <p style="font-size: 30px; font-weight: 600">SEVEN NEW INDIVIDUAL VILLAS WITH PRIVATE POOLS</p>
+                    <div>
+                        <a type="button" href="{{route('lacreasta')}}" class="btn btn-primary">Click Here</a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{asset('assets/frontend/images/home02.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h1>Second slide label</h1>
+                    <p style="font-size: 30px; font-weight: 600">Some representative placeholder content for the second slide.</p>
+                    <div>
+                        <a type="button" href="{{route('lacreasta')}}" class="btn btn-primary">Click Here</a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{asset('assets/frontend/images/home03.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h1>Third slide label</h1>
+                    <p style="font-size: 30px; font-weight: 600">Some representative placeholder content for the third slide.</p>
+                    <div>
+                        <a type="button" href="{{route('lacreasta')}}" class="btn btn-primary">Click Here</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,15 +88,19 @@
     <div class="section">
         <div class="content-wrap py-0">
             <div class="container text-section-align">
-                <h1>Who we are</h1>
-                <div class="text-section-align2">
-                    <p style="text-align: justify">As a professionally owned private real estate company, Verticelilas has always endeavored to  design and build  high quality, livable homes that are located close to the sea in highly desirable but lessor know areas all along  the Spanish and Portuguese coastlines.  We purposely shun the high density, high costs areas famous for mass-produced houses and Villas.</p>
-                </div>
+                <h1 data-aos="fade-left" data-aos-delay="200">Who we are</h1>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <p style="text-align: justify" data-aos="fade-right" data-aos-delay="200">As a professionally owned private real estate company, Verticelilas has always endeavored to  design and build  high quality, livable homes that are located close to the sea in highly desirable but lessor know areas all along  the Spanish and Portuguese coastlines.  We purposely shun the high density, high costs areas famous for mass-produced houses and Villas.</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
 
                 {{--          <div class="text-section-align2">--}}
                 {{--              <p>Sunshadow prides itself on being able to deliver high-quality projects. And we do not subscribe to the philosophy of mass-produced apartments and row upon row of look-alike houses.</p>--}}
                 {{--          </div>--}}
-                <div class="text-section-button">
+                <div style="margin-bottom: 40px" class="text-section-button" data-aos="fade-left" data-aos-delay="200">
                     <a href="{{route('about')}}" type="button" class="btn btn-primary">About Us</a>
                 </div>
             </div>
@@ -116,7 +129,7 @@
 
 
     <section class="container">
-        <div class="row gy-3">
+        <div class="row gy-3" data-aos="zoom-in">
             <div class="col-md-3 col-sm-6">
                 <a href="{{route('lacreasta')}}"><div><img width="100%" src="{{asset('assets/newfrontend/img/lacre/1.jpg')}}" alt=""></div></a>
                 <h5 style="margin-top: 8px">LA CRESTA</h5>
@@ -215,7 +228,7 @@
         <h1 style="text-align: center; font-size: 24px; margin-bottom: 70px">REAL ESTATE INVESTMENT IN LARNACA, CYPRUS</h1>
         <div class="row gy-5">
             <div class="col-md-6">
-                <div class="row">
+                <div class="row" data-aos="fade-right" data-aos-delay="200">
                     <div class="col-md-2">
                         <img width="60px" src="{{asset('assets/newfrontend/img/apartment.png')}}" class="img-fluid rounded-start" alt="...">
                     </div>
@@ -228,7 +241,7 @@
 
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="200">
                     <div class="col-md-2">
                         <img width="60px" src="{{asset('assets/newfrontend/img/realmap.png')}}" class="img-fluid rounded-start" alt="...">
                     </div>
@@ -239,7 +252,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row" data-aos="fade-right" data-aos-delay="200">
                     <div class="col-md-2">
                         <img width="60px" src="{{asset('assets/newfrontend/img/house-1.png')}}" class="img-fluid rounded-start" alt="...">
                     </div>
@@ -250,7 +263,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row" data-aos="fade-left" data-aos-delay="200">
                     <div class="col-md-2">
                         <img width="60px" src="{{asset('assets/newfrontend/img/painting.png')}}" class="img-fluid rounded-start" alt="...">
                     </div>
@@ -331,9 +344,9 @@
 
     <!-- KNOWLEDGE BASE -->
     <section class="container">
-        <h1 class="text-center">KNOWLEDGE BASE</h1>
+        <h1 style="margin-bottom: 60px" class="text-center">KNOWLEDGE BASE</h1>
 
-        <div class="row g-4">
+        <div class="row g-4" data-aos="zoom-in">
             <div class="col-md-3 col-sm-2">
                 <div class="card h-100">
                     <img height="120px" src="{{asset('assets/newfrontend/img/card1.jpg')}}" class="card-img-top" alt="...">
@@ -415,11 +428,11 @@
 
 
     <!-- CONTACT -->
-    <section class="page-section contactss" id="contact">
+    <section class="page-section contactss" id="contact" style="background-image: url({{asset('assets/contacts/images/map.png')}});">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted" style="color: white !important">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted" style="color: white !important">For any kind of help, fell free contact us</h3>
             </div>
             <!-- * * * * * * * * * * * * * * *-->
             <!-- * * SB Forms Contact Form * *-->
@@ -432,34 +445,28 @@
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <!-- Name input-->
                             <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                         </div>
                         <div class="form-group">
-                            <!-- Email address input-->
                             <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
                             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                             <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                         </div>
                         <div class="form-group mb-md-0">
-                            <!-- Phone number input-->
                             <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
                             <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
+
                             <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
                             <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                         </div>
                     </div>
                 </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
+
                 <div class="d-none" id="submitSuccessMessage">
                     <div class="text-center text-white mb-3">
                         <div class="fw-bolder">Form submission successful!</div>
@@ -468,19 +475,15 @@
                         <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                     </div>
                 </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
+
                 <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
             </form>
         </div>
     </section>
 
     <!-- CTA -->
-    <div class="section bg-primary">
+    <div style="background: #0d6efd" class="section">
         <div class="content-wrap py-3">
             <div class="container">
                 <div class="row">

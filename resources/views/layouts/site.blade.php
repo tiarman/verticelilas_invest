@@ -27,6 +27,7 @@
     <link href="{{asset('assets/contacts/css/fontawesome.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{{asset('assets/contacts/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('assets/newfrontend/css/style.css')}}">
 
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/custom2.css') }}"/>
@@ -82,7 +83,7 @@
 
 
                         <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>
-                        <li><a href="{{route('kitiou')}}">KITIOU RESIDENCES</a></li>
+                        <li><a href="{{route('kitiou')}}">Vilas Á Beira-mar</a></li>
 
                     </ul>
                 </li>
@@ -112,50 +113,51 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft; color: white">
-                        <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                        <p>Don’t miss any updates of our new templates and extensions.!</p>
-                        <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                            <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
-                            <p class="mchimp-errmessage" style="display: none;"></p>
-                            <p class="mchimp-sucmessage" style="display: none;"></p>
-                        </form>
+                        <h3 class="f-title f_600 t_color f_size_18">VERTICELILAS</h3>
+                        <p style="margin-top: -14px; font-size: 13px">Home</p>
+                        <p style="margin-top: -14px; font-size: 13px">About</p>
+                        <p style="margin-top: -14px; font-size: 13px">Why Us</p>
+                        <p style="margin-top: -14px; font-size: 13px">Our Services</p>
+                        <p style="margin-top: -14px; font-size: 13px">Our Projects</p>
+                        <p style="margin-top: -14px; font-size: 13px">Articles</p>
+                        <p style="margin-top: -14px; font-size: 13px">Contact Us</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft; color: white">
-                        <h3 class="f-title f_600 t_color f_size_18">Download</h3>
-                        <ul class="list-unstyled f_list">
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Android App</a></li>
-                            <li><a href="#">ios App</a></li>
-                            <li><a href="#">Desktop</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">My tasks</a></li>
+                        <h3 class="f-title f_600 t_color f_size_18">Our Projects</h3>
+                        <ul style="font-size: 13px" class="list-unstyled f_list">
+                            <li><a href="#">All Projects</a></li>
+                            <li><a href="#">GAIA Project</a></li>
+                            <li><a href="#">NOX Project</a></li>
+                            <li><a href="#">ARMONIA Project</a></li>
+                            <li><a href="#">ALEXANDRA Project</a></li>
+                            <li><a href="#">Vilas Á Beira-mar</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft; color: white">
-                        <h3 class="f-title f_600 t_color f_size_18">Help</h3>
-                        <ul class="list-unstyled f_list">
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Term &amp; conditions</a></li>
-                            <li><a href="#">Reporting</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Support Policy</a></li>
-                            <li><a href="#">Privacy</a></li>
+                        <h3 class="f-title f_600 t_color f_size_18">CONTACT US</h3>
+                        <ul style="font-size: 13px" class="list-unstyled f_list">
+                            <li><a href="#">VERTICELILAS</a></li>
+                            <li><a href="#">Calle Gutenberg</a></li>
+                            <li><a href="#">5 4BIS 29016 Malaga Spain</a></li>
+                            <li><a href="#">Tel: 34-646441927</a></li>
+                            <li><a href="#">info@verticelilasinvest.com</a></li>
                         </ul>
+
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft; color: white">
                         <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
-                        <div class="f_social_icon">
-                            <a href="#" class="fa-facebook-square"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                            <a href="#" class="fab fa-pinterest"></a>
+                        <div>
+                            <a class="btn btn-dark btn-social mx-1" href="#!" aria-label="Twitter"><i class="fab fa-facebook"></i></a>
+                            <a class="btn btn-dark btn-social mx-1" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-1" href="#!" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-1" href="#!" aria-label="Twitter"><i class="fab fa-youtube"></i></a>
+{{--                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-linkedin"></i></a>--}}
                         </div>
                     </div>
                 </div>
@@ -170,10 +172,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-7">
-                    {{--                    <p class="mb-0 f_400">© cakecounter Inc.. 2019 All rights reserved.</p>--}}
+                    <p class="mb-0 f_400">© 2022 Verticelilas All Rights Reserved. | Privacy Policy</p>
                 </div>
                 <div class="col-lg-6 col-sm-5 text-right">
-                    {{--                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com" target="_blank">CakeCounter</a></p>--}}
+                    <p>Maintains By <i class="fab fa-heart"></i> in <a href="https://optimistic-ardinghelli-768ff3.netlify.app/" target="_blank">Towhidul Islam</a></p>
                 </div>
             </div>
         </div>
@@ -189,7 +191,8 @@
 
 <div id="preloader"></div>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 <!-- Vendor JS Files -->
 <script src="{{asset('assets/frontend/vendor/aos/aos.js')}}"></script>
 <script src="{{asset('assets/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
