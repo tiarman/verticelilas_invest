@@ -133,20 +133,22 @@
             <div class="col-md-3 col-sm-6">
                 <a href="{{route('lacreasta')}}"><div><img width="100%" src="{{asset('assets/newfrontend/img/lacre/1.jpg')}}" alt=""></div></a>
                 <h5 style="margin-top: 8px">LA CRESTA</h5>
-                <p style="font-size: 13px">Seven New Individual Villas With Private Pools</p>
+{{--                <p style="font-size: 13px">Seven New Individual Villas With Private Pools</p>--}}
 
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="{{asset('assets/newfrontend/img/lacre/14.jpg')}}"><div><img width="100%" src="{{asset('assets/newfrontend/img/lacre/14.jpg')}}" alt=""></div></a>
                 <h5 style="margin-top: 8px">VERTICELILAS Project</h5>
-                <p style="font-size: 13px">2-3 Bedroom Apartments</p>
+{{--                <p style="font-size: 13px">2-3 Bedroom Apartments</p>--}}
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="{{asset('assets/newfrontend/img/lacre/3.jpg')}}"><div><img width="100%" src="{{asset('assets/newfrontend/img/lacre/3.jpg')}}" alt=""></div></a>
+                <h5 style="margin-top: 8px">Vilas Á Beira-mar</h5>
 
             </div>
             <div class="col-md-3 col-sm-6">
                 <a href="{{asset('assets/newfrontend/img/lacre/4.jpg')}}"><div><img width="100%" src="{{asset('assets/newfrontend/img/lacre/4.jpg')}}" alt=""></div></a>
+                <h5 style="margin-top: 8px">Armonia Residences</h5>
 
             </div>
 
