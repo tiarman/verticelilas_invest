@@ -26,7 +26,7 @@
 
             </div>
             <div class="col-md-8 our_services_align3">
-                <p>Kitiou Residences is a contemporary gated residential apartment development in a quiet and desirable street in central Larnaca, just a short walk from the sea front and many of the town’s attractions and facilities.</p>
+                <p>Vilas Á Beira-mar Residences is a contemporary gated residential apartment development in a quiet and desirable street in central Larnaca, just a short walk from the sea front and many of the town’s attractions and facilities.</p>
                 <p style="color: black">The design of this four-level building offers a great choice of 2 and 3 bedroom apartments in various spacious configurations. Kitiou Residences are well priced, and ideal for young professionals and families.</p>
                 <div class="row">
                     <div class="col-md-6">
