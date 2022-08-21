@@ -31,7 +31,7 @@
                             <p class="card-text">Larnaca is one of the prime locations in Cyprus to buy properties. The time is now since the real estate market in Larnaca is proliferating.</p>
                             <br/>
                             <div>
-                                <button class="btn btn-primary">Read More</button>
+                                <a class="" href="{{route('articleDetails')}}"><button class="btn btn-primary">Read More</button></a>
                             </div>
 
                         </div>

@@ -265,6 +265,10 @@ Route::get('/project-nox-residential',function(){
 Route::get('/alexandra',function(){
   return view('site.alexandra');
 })->name('alexandra');
+// current project article details arif
+Route::get('/article-details',function(){
+  return view('site.articleDetails');
+})->name('articleDetails');
 
 
 

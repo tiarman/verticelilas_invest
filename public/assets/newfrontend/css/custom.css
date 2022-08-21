@@ -23,3 +23,13 @@
 }
 
 /* end nox residential */
+
+/* article details */
+.article-details-ensure{
+    background-color: #f2f0ef;
+    padding: 25px;
+}
+.article-details-title{
+    color: rgba(0, 0, 0, 0.808);
+}
+/*end article details */
