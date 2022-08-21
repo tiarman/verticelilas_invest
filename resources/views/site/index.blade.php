@@ -30,8 +30,8 @@
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="{{asset('assets/frontend/images/home02.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Second slide label</h1>
-                    <p style="font-size: 30px; font-weight: 600">Some representative placeholder content for the second slide.</p>
+                    <h1 style="color: white">Nox residential</h1>
+                    <p style="font-size: 30px; font-weight: 600">Nox mid-rise apartment building is designed for those who share similar values and cultural ideas</p>
                     <div>
                         <a type="button" href="{{route('lacreasta')}}" class="btn btn-primary">Click Here</a>
                     </div>
@@ -40,10 +40,10 @@
             <div class="carousel-item">
                 <img src="{{asset('assets/frontend/images/home03.png')}}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <h1>Third slide label</h1>
+                    <h1 style="color: white">Vilas Á Beira-mar</h1>
                     <p style="font-size: 30px; font-weight: 600">Some representative placeholder content for the third slide.</p>
                     <div>
-                        <a type="button" href="{{route('lacreasta')}}" class="btn btn-primary">Click Here</a>
+                        <a type="button" href="{{route('kitiou')}}" class="btn btn-primary">Click Here</a>
                     </div>
                 </div>
             </div>
