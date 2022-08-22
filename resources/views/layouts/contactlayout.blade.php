@@ -24,6 +24,22 @@
             <h6>info@verticelilasinvest.com</h6>
 
         </div>
+
+        <div style="text-align: center; margin-top: 60px">
+            <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft; color: white">
+{{--                <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>--}}
+                <div>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-facebook"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-youtube"></i></a><a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+
         <div style="margin-top: 50px" class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="wrapper img" style="background-image: url({{asset('assets/contacts/images/img.jpg')}});">

@@ -219,6 +219,7 @@ Route::get('/articles', function () {
 })->name('articles');
 
 
+
 Route::get('/lacreasta', function () {
     return view('site.lacreasta');
 })->name('lacreasta');
@@ -236,6 +237,7 @@ Route::get('/articlesdetails', function () {
 Route::get('/services', function () {
     return view('site.services');
 })->name('services');
+
 
 
 Route::get('/about', function () {
@@ -263,6 +265,10 @@ Route::get('/project-nox-residential',function(){
 Route::get('/alexandra',function(){
   return view('site.alexandra');
 })->name('alexandra');
+// current project article details arif
+Route::get('/article-details',function(){
+  return view('site.articleDetails');
+})->name('articleDetails');
 
 
 
@@ -276,6 +282,10 @@ Route::get('/partner-page',[SiteController::class,'partners']
 Route::get('/partners', function () {
   return view('site.partners');
 })->name('partners');
+
+Route::get('/cyprus', function () {
+    return view('site.cyprus');
+})->name('cyprus');
 
 
 Route::get('/practice-area', function (){

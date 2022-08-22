@@ -64,12 +64,12 @@
                 </div>
                 <div class="col-md-8 our_services_align3">
                     <P>Verticelilasinvest goal  dynamic cutting edge developments that can be both a fantastic home for you, your family and friends, but also have the potential to be income producing as well as a high value short term rental a unique combination of strong growth returns and positive cash-flow income;</P>
-{{--                    <br/>--}}
-{{--                    <p style="color: black">Spanish real estate is predicted to be among the world’s star performers in the years to come, and with this potential it is easy to see why buyers and investors from around the world are looking to the Cyprus real estate market.</p>--}}
-{{--                    <br/>--}}
-{{--                    <p style="color: black"></p>--}}
-{{--                    <br/>--}}
-{{--                    <p style="color: black">Our focus is about making a difference for our clients — plain and simple</p>--}}
+                    {{--                    <br/>--}}
+                    {{--                    <p style="color: black">Spanish real estate is predicted to be among the world’s star performers in the years to come, and with this potential it is easy to see why buyers and investors from around the world are looking to the Cyprus real estate market.</p>--}}
+                    {{--                    <br/>--}}
+                    {{--                    <p style="color: black"></p>--}}
+                    {{--                    <br/>--}}
+                    {{--                    <p style="color: black">Our focus is about making a difference for our clients — plain and simple</p>--}}
 
                 </div>
             </div>
@@ -90,8 +90,8 @@
                 <p style="color: black">My view is that property investment is much enhanced if a property can pay for itself while the capital value grows: if you buy an investment property, your investment will be that much more sustainable in the long term if that property brings you an excellent annual rental income. It’s with this in mind that we offer a top-class service to clients looking to rent out their property as a matter of course.</p>
                 <br/>
                 <p style="color: black">Astute passive real estate investors can choose from our impressive portfolio of villas and townhouses in superb locations, at realistic market prices. </p>
-{{--                <br/>--}}
-{{--                <p style="color: black">From Paphos to Limassol, and from Larnaca to Protaras, I believe the choice of investment opportunities we can currently offer you is unrivaled.</p>--}}
+                {{--                <br/>--}}
+                {{--                <p style="color: black">From Paphos to Limassol, and from Larnaca to Protaras, I believe the choice of investment opportunities we can currently offer you is unrivaled.</p>--}}
 
             </div>
         </div>

@@ -8,9 +8,9 @@
     <div class="card bg-dark text-white">
         <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">
         <div class="card-img-overlay">
-{{--            <h5 class="card-title">Card title</h5>--}}
-{{--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>--}}
-{{--            <p class="card-text">Last updated 3 mins ago</p>--}}
+            {{--            <h5 class="card-title">Card title</h5>--}}
+            {{--            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>--}}
+            {{--            <p class="card-text">Last updated 3 mins ago</p>--}}
         </div>
     </div>
 
@@ -19,7 +19,7 @@
             <div class="card mb-3" style="max-width: 100%;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-{{--                        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">--}}
+                        {{--                        <img src="{{asset('assets/newfrontend/img/articles1.png')}}" class="card-img" alt="...">--}}
                         <div class="col-sm-6 col-md-12"><img width="100%" src="{{asset('assets/newfrontend/img/noxResidential/img1.jpg')}}" alt=""></div>
                     </div>
                     <div class="col-md-8">
@@ -31,7 +31,7 @@
                             <p class="card-text">Larnaca is one of the prime locations in Cyprus to buy properties. The time is now since the real estate market in Larnaca is proliferating.</p>
                             <br/>
                             <div>
-                                <button class="btn btn-primary">Read More</button>
+                                <a class="" href="{{route('articleDetails')}}"><button class="btn btn-primary">Read More</button></a>
                             </div>
 
                         </div>
@@ -112,6 +112,6 @@
 
 
 
-    @endsection
+@endsection
 @section('script')
 @endsection
