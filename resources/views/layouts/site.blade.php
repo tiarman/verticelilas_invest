@@ -47,9 +47,15 @@
 <body>
 
 <!-- LOAD PAGE -->
+<<<<<<< HEAD
 <div class="animationload">
     <div class="loader"></div>
 </div>
+=======
+{{--<div class="animationload">--}}
+{{--    <div class="loader"></div>--}}
+{{--</div>--}}
+>>>>>>> 8431f73a6c5c92415fb086e936c51d8fe69e1f1b
 
 
 
@@ -76,13 +82,17 @@
                 <li class="dropdown"><a href="#"><span>PROJECTS</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="{{route('lacreasta')}}">LA CRESTA DEL MAR</a></li>
-                        <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>
-                        <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>
+{{--                        <li><a href="{{route('giaproject')}}">GAIA PROJECT</a></li>--}}
+{{--                        <li><a href="{{route('project.nox.residential')}}">NOX Residential</a></li>--}}
 
-                        <li><a href="{{route('armonia')}}">ARMONIA Project</a></li>
+{{--                        <li><a href="{{route('armonia')}}">ARMONIA Project</a></li>--}}
 
 
+<<<<<<< HEAD
                         <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>
+=======
+{{--                        <li><a href="{{route('alexandra')}}">Alexandra Villas</a></li>--}}
+>>>>>>> 8431f73a6c5c92415fb086e936c51d8fe69e1f1b
                         <li><a href="{{route('kitiou')}}">Vilas Á Beira-mar</a></li>
 
                     </ul>
@@ -128,10 +138,18 @@
                         <h3 class="f-title f_600 t_color f_size_18">Our Projects</h3>
                         <ul style="font-size: 13px" class="list-unstyled f_list">
                             <li><a href="#">All Projects</a></li>
+<<<<<<< HEAD
                             <li><a href="#">GAIA Project</a></li>
                             <li><a href="#">NOX Project</a></li>
                             <li><a href="#">ARMONIA Project</a></li>
                             <li><a href="#">ALEXANDRA Project</a></li>
+=======
+                            <li><a href="#">LA CRESTA DEL MAR</a></li>
+{{--                            <li><a href="#">GAIA Project</a></li>--}}
+{{--                            <li><a href="#">NOX Project</a></li>--}}
+{{--                            <li><a href="#">ARMONIA Project</a></li>--}}
+{{--                            <li><a href="#">ALEXANDRA Project</a></li>--}}
+>>>>>>> 8431f73a6c5c92415fb086e936c51d8fe69e1f1b
                             <li><a href="#">Vilas Á Beira-mar</a></li>
                         </ul>
                     </div>
@@ -175,7 +193,11 @@
                     <p class="mb-0 f_400">© 2022 Verticelilas All Rights Reserved. | Privacy Policy</p>
                 </div>
                 <div class="col-lg-6 col-sm-5 text-right">
+<<<<<<< HEAD
                     <p>Maintains By <i class="fab fa-heart"></i> in <a href="https://optimistic-ardinghelli-768ff3.netlify.app/" target="_blank">Towhidul Islam</a></p>
+=======
+{{--                    <p>Maintains By <i class="fab fa-heart"></i> in <a href="https://optimistic-ardinghelli-768ff3.netlify.app/" target="_blank">Towhidul Islam</a></p>--}}
+>>>>>>> 8431f73a6c5c92415fb086e936c51d8fe69e1f1b
                 </div>
             </div>
         </div>
